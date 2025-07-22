@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import SpecialDishes from './components/SpecialDishes';
 import About from './components/About';
 import Menu from './components/Menu';
-import Reservation from './components/Reservation';
+import BookingForm from './components/Reservation';
 import Testimonials from './components/Testimonials';
 import Newsletter from './components/NewsLetter';
 import Footer from './components/Footer';
@@ -17,7 +17,7 @@ export default function App() {
       <SpecialDishes />
       <About />
       <Menu />
-      <Reservation />
+      <BookingForm />
       <Testimonials />
       <Newsletter />
       <Footer />
