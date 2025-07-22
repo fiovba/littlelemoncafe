@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Reservation() {
+function BookingForm() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -75,4 +75,4 @@ function Reservation() {
   );
 }
 
-export default Reservation;
+export default BookingForm;
